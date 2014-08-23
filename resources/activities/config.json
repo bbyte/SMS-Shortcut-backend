@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"deviceId": {
+			"name": "deviceId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "deviceId",
+			"order": 0
+		},
+		"event": {
+			"name": "event",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "event",
+			"order": 1
+		},
+		"createdAt": {
+			"name": "createdAt",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "createdAt",
+			"order": 2
+		},
+		"ipAddress": {
+			"name": "ipAddress",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "ipAddress",
+			"order": 3
+		}
+	}
+}

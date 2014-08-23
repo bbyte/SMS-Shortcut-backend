@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"deviceId": {
+			"name": "deviceId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "deviceId",
+			"order": 0
+		},
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "type",
+			"order": 1
+		},
+		"version": {
+			"name": "version",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "version",
+			"order": 2
+		},
+		"screenWidth": {
+			"name": "screenWidth",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "screenWidth",
+			"order": 3
+		},
+		"screenHeight": {
+			"name": "screenHeight",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "screenHeight",
+			"order": 4
+		}
+	}
+}
